@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .main{
+        height: 70px;
+        background-color: brown;
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+        gap: 150px;
+
+    }
+
+    .home {
+        display: none;
+        position: absolute;
+        background-color: #00ffee;
+        min-width: 250px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+     
+        
+       
+       
+    }
+
+    .menu{
+        cursor: pointer;
+    }
+
+
+    .menu:hover .home{
+        display: block;
+    }
+</style>
+<body>
+    <div class="main">
+<div class="menu">
+
+    <h3>home</h3>
+       <div class="home">
+        <img src="./images/61771Wta6CL._UX679_.jpg"
+         height="250px" width="250px">
+       </div>
+</div>
+       
+       <h3>service</h3>
+       <h3>contact</h3>
+       <h3>about</h3>
+
+
+
+
+    </div>
+</body>
+</html>
